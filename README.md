@@ -8,6 +8,14 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 ## 实验数据介绍
 - 一副无人机拍摄的高分辨率矿区影像图
 - 实验室进行标注的对应label
-- v0219版本：进行裁剪后的640 x 640的图像与label数据
-- v0225&v0301版本及之后：进行裁剪后的320 x 320的图像与label数据，并更换测试集
+- 进行裁剪后的320 x 320的图像与label数据
 
+## 实验代码介绍
+- [danet.py](): DANet网络代码
+- [attention.py](): 注意力模块代码，pam和cam模块代码
+- [danet_res152.py](): 基于resnet152的danet代码，替换aspp模块
+- [MyData.py](): 数据载入的代码
+- [train_danet_res.py](): 训练代码
+- [predict_gray.py](): 预测灰度结果的代码
+- [MIoU.py](): 根据灰度预测结果计算相关指标
+- [predict.py](): 预测结果并进行涂色
