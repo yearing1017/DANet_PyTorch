@@ -19,3 +19,10 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 - [predict_gray.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/predict_gray.py): 预测灰度结果的代码
 - [MIoU.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/MIoU.py): 根据灰度预测结果计算相关指标
 - [predict.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/predict.py): 预测结果并进行涂色
+
+## 实验结果
+
+### 实验数据指标
+
+
+### 实验初步效果截图对比
