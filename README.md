@@ -24,5 +24,9 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 
 ### 实验数据指标
 
+|     版本&指标    |  Acc   |  MIoU  | Kappa  |  地面  |  房屋  |  道路  |  车辆  |
+| :-----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| Danet0408 | 0.9294 | 0.6762 | 0.7347 | 0.9818 | 0.5991 | 0.8409 | 0.4458 |
+
 
 ### 实验初步效果截图对比
