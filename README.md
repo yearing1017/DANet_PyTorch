@@ -34,5 +34,8 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 
 ### 实验初步效果截图对比
 
-- 基于ResNet152的DANet网络实验（danet替换deeplabv3的aspp模块）
+- **基于ResNet152的DANet网络实验（danet替换deeplabv3的aspp模块）**
 ![](https://blog-1258986886.cos.ap-beijing.myqcloud.com/yearing1017/danet0408.jpg)
+
+- **danet模块加入deeplabv3（与aspp模块并联）**
+![](https://blog-1258986886.cos.ap-beijing.myqcloud.com/yearing1017/danet_v3.jpg)
