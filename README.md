@@ -3,7 +3,8 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 
 ## 实验环境简介
 - 环境: Python3.6, Pytorch1.0, OpenCV, Numpy等必备环境
-- DANet_ResNet网络代码: danet.py, attention.py, danet_res152.py
+- DANet_ResNet实验代码: danet.py, attention.py, danet_res152.py, train_dan_res.py
+- DANet_deeplabv3实验: danet.py, attention.py, deeplabv3_danet.py, train_v3_danet.py 
 
 ## 实验数据介绍
 - 一副无人机拍摄的高分辨率矿区影像图
