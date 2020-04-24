@@ -15,7 +15,7 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 - [danet.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/DAN_ResNet/danet.py): DANet网络代码
 - [attention.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/DAN_ResNet/attention.py): 注意力模块代码，pam和cam模块代码
 - [danet_res152.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/danet_res152.py): 基于resnet152的danet代码，替换aspp模块
-- []()
+- [deeplabv3_danet.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/deeplabv3_danet.py): 将danet模块加入deeplabv3网络，与aspp模块并联
 - [MyData.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/MyData.py): 数据载入的代码
 - [train_danet_res.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/train_danet_res.py): 训练代码
 - [predict_gray.py](https://github.com/yearing1017/DANet_PyTorch/blob/master/predict_gray.py): 预测灰度结果的代码
@@ -29,6 +29,7 @@ A Pytorch implementation of Dual Attention Network for Scene Segmentation
 |     版本&指标    |  Acc   |  MIoU  | Kappa  |  地面  |  房屋  |  道路  |  车辆  |
 | :-----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Danet0408 | 0.9294 | 0.6762 | 0.7347 | 0.9818 | 0.5991 | 0.8409 | 0.4458 |
+| Danet04 | 0.9294 | 0.6762 | 0.7347 | 0.9818 | 0.5991 | 0.8409 | 0.4458 |
 
 
 ### 实验初步效果截图对比
