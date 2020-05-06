@@ -1,5 +1,7 @@
 # DANet_PyTorch
 A Pytorch implementation of Dual Attention Network for Scene Segmentation
+- **网络结构图**
+![](https://blog-1258986886.cos.ap-beijing.myqcloud.com/paper/20-1.jpg)
 
 ## 实验环境简介
 - 环境: Python3.6, Pytorch1.0, OpenCV, Numpy等必备环境
